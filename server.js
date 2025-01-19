@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
         filePath = 'contact.html';
     } else if (req.url === '/style.css') {
         filePath = 'style.css';
-    } else if (req.url.startsWith('/images/')) { // Handle image file request
+    } else if (req.url.startsWith('/images/')) { 
         filePath = req.url.slice(1); // Remove the leading slash
     } else if (req.url.endsWith('.svg')) { // Handle SVG file request
         filePath = req.url.slice(1);
