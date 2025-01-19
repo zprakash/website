@@ -26,6 +26,7 @@
             font-variation-settings:
                 "wdth" 100;
             background-color: #ffffff;
+            transition: background-color 0.5s ease;
 
         }
 
@@ -353,6 +354,10 @@
             color: #ffa800;
         }
 
+        .more-info {
+            display: none;
+        }
+
         /* Media Queries */
         @media screen and (max-width: 768px) {
             .skills-container {
@@ -441,9 +446,15 @@
                         to learn and grow within dynamic teams.</p>
                 </div>
                 <img src="./images/image.png" alt="Your Name">
+                <button class="button" onclick="toggleMoreInfo()">More about me</button>
+                <div id="moreInfo" class="more-info">
+                    <p style="color: #555; font-size: 1.2em; line-height: 1.6; text-align: left;">I am passionate about building solutions that make a positive impact. Outside of coding, I enjoy
+                        photography, exploring new technologies, and working on creative projects that challenge me to
+                        think differently.</p>
+                </div>
             </div>
         </nav>
-        
+
         <div class="skills-container" id="skills">
             <div class="skills">
                 <div class="skills-main-box">
@@ -601,6 +612,21 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        window.onload = function() {
+            alert("Welcome to the Prakash Acharya Portfolio!");
+        };
+
+        function toggleMoreInfo() {
+            var moreInfo = document.getElementById('moreInfo');
+            if (moreInfo.style.display === 'none' || moreInfo.style.display === '') {
+                moreInfo.style.display = 'block';
+            } else {
+                moreInfo.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 
 </html>
