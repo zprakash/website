@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: #ffffff;
+
+}
+
+nav {
+    background-color: #dcd6d6;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em;
+    padding: 1rem;
+    margin-top: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.top-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.top-container h1 {
+    margin-bottom: 0.2em;
+    font-size: 4em;
+}
+
+.top-container p {
+    margin-bottom: 1em;
+}
+
+.top-container img {
+    border-radius: 50%;
+    width: 23%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para-holder {
+    margin: auto;
+    width: 50%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #122ebd;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #2525d6; /* Darker Green */
+  }
+  
+.para-holder p {
+    color: rgb(63, 63, 63);
+    word-spacing: 0.1em;
+    line-height: 1.3;
+    font-size: 1.3em;
+}
+
+.skills-container {
+    height: 900px;
+}
+
+.skills {
+    margin-bottom: 2em;
+}
+
+.skills-main-box {
+    border-radius: 13px;
+    height: 50vh;
+    background-color: rgb(87, 24, 188);
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.skillsLabel {
+    color: rgb(223, 217, 217);
+    font-size: 2.5em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsboxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    color: rgb(138, 134, 134);
+    word-spacing: 0.1em;
+    line-height: 1.3;
+    padding: 0.5em;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.languages {
+    color: blue;
+    padding: 1.5em;
+}
+
+.gray-line {
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.projects {
+    padding: 2em;
+}
+
+.headingholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsHeading {
+    font-size: 3em;
+    color: white;
+}
+
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #580fd5;
+}
+
+.projects-container h1 {
+    padding: 1em;
+   
+}
+
+.projects-container p {
+    color: rgb(174, 168, 168);
+    word-spacing: 0.1em;
+    line-height: 1.3;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+
+.projects-items {
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 1em;
+    gap: 0.2em;
+    border-radius: 13px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image,
+.content {
+    flex: 1;
+}
+
+.image {
+    max-width: 50%;
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+}
+
+.divider {
+    width: 4px;
+    height: 100%;
+    background-color: blue;
+}
+
+.content {
+    background-color: white;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.experience {
+    background-color: #FAF9F6
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.experience h1 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 20px 0;
+}
+
+.experience-item {
+    width: calc(33% - 40px);
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.date {
+    padding: 10px;
+}
+
+.experience-item-header {
+    margin-bottom: 10px;
+
+}
+
+.experience-item-header h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.experience-item-header p {
+    color: rgb(138, 134, 134);
+    word-spacing: 0.1em;
+    line-height: 1.3;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #580fd5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav {
+    background-color: #580fd5;
+    padding: 10px;
+}
+
+.footer-nav ul li a {
+    color: rgb(224, 224, 224);
+}
+
+.copyright p {
+    color: rgb(224, 224, 224);
+    margin-top: 3em;
+}
+
+.footer-name {
+    color: rgb(224, 224, 224);
+    font-size: 3em;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    font-size: 2em;
+    margin-right: 10px;
+    color: rgb(8, 234, 255);
+    transition: all 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffa800;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .skills-container {
+        height: auto;
+    }
+
+    .skillsboxes {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .skillsLabel {
+        font-size: 2em;
+    }
+
+    .top-container {
+        padding: 30px;
+    }
+
+    .top-container h1 {
+        font-size: 3em;
+    }
+
+    .para-holder {
+        width: 70%;
+    }
+
+    .skills-main-box {
+        height: auto;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .projects-items {
+        flex-direction: column;
+    }
+
+    .image,
+    .content {
+        max-width: 100%;
+    }
+
+    .experience-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-container h1 {
+        font-size: 2.5em;
+    }
+
+    .para-holder {
+        width: 90%;
+    }
+
+    .box {
+        width: 80%;
+    }
+}
